@@ -6,7 +6,6 @@ void menu1();
 void menu2();
 void menu3();
 
-// Define menu items and their associated function pointers
 typedef struct menuitem {
     const char* label;
     menufunctionptr functionptr;
